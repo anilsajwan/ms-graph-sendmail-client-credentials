@@ -1,0 +1,15 @@
+{
+  "name": "ms-graph-sendmail-client-credentials",
+  "version": "1.0.0",
+  "description": "Enterprise Microsoft Graph email sender",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "@azure/msal-node": "^2.0.0",
+    "axios": "^1.6.0",
+    "dotenv": "^16.0.0",
+    "winston": "^3.0.0"
+  }
+}
